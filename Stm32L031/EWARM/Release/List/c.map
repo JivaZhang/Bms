@@ -1,0 +1,716 @@
+###############################################################################
+#
+# IAR ELF Linker V7.60.2.11341/W32 for ARM                14/Mar/2017  16:41:16
+# Copyright 2007-2016 IAR Systems AB.
+#
+#    Output file  =  
+#        D:\brisky\项目资料\电池管理\code\代码merge\Stm32L031\EWARM\Release\Exe\c.out
+#    Map file     =  
+#        D:\brisky\项目资料\电池管理\code\代码merge\Stm32L031\EWARM\Release\List\c.map
+#    Command line =  
+#        D:\brisky\项目资料\电池管理\code\代码merge\Stm32L031\EWARM\Release\Obj\adc.o
+#        D:\brisky\项目资料\电池管理\code\代码merge\Stm32L031\EWARM\Release\Obj\afe.o
+#        D:\brisky\项目资料\电池管理\code\代码merge\Stm32L031\EWARM\Release\Obj\battercom.o
+#        D:\brisky\项目资料\电池管理\code\代码merge\Stm32L031\EWARM\Release\Obj\bmsnormal.o
+#        D:\brisky\项目资料\电池管理\code\代码merge\Stm32L031\EWARM\Release\Obj\bmsship.o
+#        D:\brisky\项目资料\电池管理\code\代码merge\Stm32L031\EWARM\Release\Obj\bmsstart.o
+#        D:\brisky\项目资料\电池管理\code\代码merge\Stm32L031\EWARM\Release\Obj\chargedischarge.o
+#        D:\brisky\项目资料\电池管理\code\代码merge\Stm32L031\EWARM\Release\Obj\clock.o
+#        D:\brisky\项目资料\电池管理\code\代码merge\Stm32L031\EWARM\Release\Obj\debug.o
+#        D:\brisky\项目资料\电池管理\code\代码merge\Stm32L031\EWARM\Release\Obj\eeprom.o
+#        D:\brisky\项目资料\电池管理\code\代码merge\Stm32L031\EWARM\Release\Obj\gauge.o
+#        D:\brisky\项目资料\电池管理\code\代码merge\Stm32L031\EWARM\Release\Obj\gpio.o
+#        D:\brisky\项目资料\电池管理\code\代码merge\Stm32L031\EWARM\Release\Obj\i2c.o
+#        D:\brisky\项目资料\电池管理\code\代码merge\Stm32L031\EWARM\Release\Obj\key.o
+#        D:\brisky\项目资料\电池管理\code\代码merge\Stm32L031\EWARM\Release\Obj\led.o
+#        D:\brisky\项目资料\电池管理\code\代码merge\Stm32L031\EWARM\Release\Obj\main.o
+#        D:\brisky\项目资料\电池管理\code\代码merge\Stm32L031\EWARM\Release\Obj\startup_stm32l031xx.o
+#        D:\brisky\项目资料\电池管理\code\代码merge\Stm32L031\EWARM\Release\Obj\stm32l0xx_hal.o
+#        D:\brisky\项目资料\电池管理\code\代码merge\Stm32L031\EWARM\Release\Obj\stm32l0xx_hal_adc.o
+#        D:\brisky\项目资料\电池管理\code\代码merge\Stm32L031\EWARM\Release\Obj\stm32l0xx_hal_adc_ex.o
+#        D:\brisky\项目资料\电池管理\code\代码merge\Stm32L031\EWARM\Release\Obj\stm32l0xx_hal_cortex.o
+#        D:\brisky\项目资料\电池管理\code\代码merge\Stm32L031\EWARM\Release\Obj\stm32l0xx_hal_flash.o
+#        D:\brisky\项目资料\电池管理\code\代码merge\Stm32L031\EWARM\Release\Obj\stm32l0xx_hal_flash_ex.o
+#        D:\brisky\项目资料\电池管理\code\代码merge\Stm32L031\EWARM\Release\Obj\stm32l0xx_hal_gpio.o
+#        D:\brisky\项目资料\电池管理\code\代码merge\Stm32L031\EWARM\Release\Obj\stm32l0xx_hal_i2c.o
+#        D:\brisky\项目资料\电池管理\code\代码merge\Stm32L031\EWARM\Release\Obj\stm32l0xx_hal_i2c_ex.o
+#        D:\brisky\项目资料\电池管理\code\代码merge\Stm32L031\EWARM\Release\Obj\stm32l0xx_hal_iwdg.o
+#        D:\brisky\项目资料\电池管理\code\代码merge\Stm32L031\EWARM\Release\Obj\stm32l0xx_hal_rcc.o
+#        D:\brisky\项目资料\电池管理\code\代码merge\Stm32L031\EWARM\Release\Obj\stm32l0xx_hal_rcc_ex.o
+#        D:\brisky\项目资料\电池管理\code\代码merge\Stm32L031\EWARM\Release\Obj\stm32l0xx_hal_tim.o
+#        D:\brisky\项目资料\电池管理\code\代码merge\Stm32L031\EWARM\Release\Obj\stm32l0xx_hal_tim_ex.o
+#        D:\brisky\项目资料\电池管理\code\代码merge\Stm32L031\EWARM\Release\Obj\stm32l0xx_hal_uart.o
+#        D:\brisky\项目资料\电池管理\code\代码merge\Stm32L031\EWARM\Release\Obj\stm32l0xx_hal_uart_ex.o
+#        D:\brisky\项目资料\电池管理\code\代码merge\Stm32L031\EWARM\Release\Obj\stm32l0xx_hal_usart.o
+#        D:\brisky\项目资料\电池管理\code\代码merge\Stm32L031\EWARM\Release\Obj\stm32l0xx_hal_wwdg.o
+#        D:\brisky\项目资料\电池管理\code\代码merge\Stm32L031\EWARM\Release\Obj\system_stm32l0xx.o
+#        D:\brisky\项目资料\电池管理\code\代码merge\Stm32L031\EWARM\Release\Obj\systemDefault.o
+#        D:\brisky\项目资料\电池管理\code\代码merge\Stm32L031\EWARM\Release\Obj\timer.o
+#        D:\brisky\项目资料\电池管理\code\代码merge\Stm32L031\EWARM\Release\Obj\usart.o
+#        -o
+#        D:\brisky\项目资料\电池管理\code\代码merge\Stm32L031\EWARM\Release\Exe\c.out
+#        --redirect _Printf=_PrintfTiny --map
+#        D:\brisky\项目资料\电池管理\code\代码merge\Stm32L031\EWARM\Release\List\c.map
+#        --log
+#        libraries,initialization,modules,redirects,sections,veneers,unused_fragments,call_graph
+#        --log_file
+#        D:\brisky\项目资料\电池管理\code\代码merge\Stm32L031\EWARM\Release\List\c.log
+#        --config "C:\Program Files (x86)\IAR Systems\Embedded Workbench
+#        7.6\arm\config\linker\ST\stm32l051x8.icf" --entry __iar_program_start
+#        --inline --vfe
+#
+###############################################################################
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+CppFlavor       = *
+__SystemLibrary = DLib
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A1":  place at 0x08000000 { ro section .intvec };
+"P1":  place in [from 0x08000000 to 0x0800ffff] { ro };
+"P2":  place in [from 0x20000000 to 0x20001fff] { rw, block CSTACK, block HEAP };
+initialize by copy { rw };
+
+  Section            Kind        Address    Size  Object
+  -------            ----        -------    ----  ------
+"A1":                                       0xc0
+  .intvec            ro code  0x08000000    0xc0  startup_stm32l031xx.o [1]
+                            - 0x080000c0    0xc0
+
+"P1":                                     0x4e8e
+  .text              ro code  0x080000c0   0x7f8  stm32l0xx_hal_rcc.o [1]
+  .text              ro code  0x080008b8    0x60  stm32l0xx_hal.o [1]
+  .text              ro code  0x08000918    0xe0  I32DivModFast.o [5]
+  .text              ro code  0x080009f8    0xf0  clock.o [1]
+  .text              ro code  0x08000ae8   0x134  stm32l0xx_hal_cortex.o [1]
+  .text              ro code  0x08000c1c    0x24  main.o [1]
+  .text              ro code  0x08000c40   0x1b0  stm32l0xx_hal_rcc_ex.o [1]
+  .text              ro code  0x08000df0   0x734  stm32l0xx_hal_i2c.o [1]
+  .text              ro code  0x08001524   0x4c2  i2c.o [1]
+  .text              ro code  0x080019e6     0xa  systemDefault.o [1]
+  .text              ro code  0x080019f0    0x8c  stm32l0xx_hal_i2c_ex.o [1]
+  .text              ro code  0x08001a7c   0x21c  stm32l0xx_hal_gpio.o [1]
+  .text              ro code  0x08001c98   0x674  stm32l0xx_hal_adc.o [1]
+  .text              ro code  0x0800230c   0x174  adc.o [1]
+  .text              ro code  0x08002480    0xac  stm32l0xx_hal_adc_ex.o [1]
+  .text              ro code  0x0800252c   0x5f2  afe.o [1]
+  .text              ro code  0x08002b1e     0x2  startup_stm32l031xx.o [1]
+  .text              ro code  0x08002b20   0x5b4  bmsnormal.o [1]
+  .text              ro code  0x080030d4    0x64  chargedischarge.o [1]
+  .text              ro code  0x08003138    0xdc  key.o [1]
+  .text              ro code  0x08003214    0xb8  led.o [1]
+  .text              ro code  0x080032cc   0x470  battercom.o [1]
+  .text              ro code  0x0800373c    0x5c  ABImemcpy.o [5]
+  .text              ro code  0x08003798    0x34  ABImemset.o [5]
+  .text              ro code  0x080037cc   0x2d4  stm32l0xx_hal_uart.o [1]
+  .text              ro code  0x08003aa0    0x1e  I32ToFlt.o [4]
+  .text              ro code  0x08003abe     0x2  startup_stm32l031xx.o [1]
+  .text              ro code  0x08003ac0    0x32  FltToDbl.o [4]
+  .text              ro code  0x08003af2   0x1b4  DblAddSub.o [4]
+  .text              ro code  0x08003ca6    0x24  DblCmpEq.o [4]
+  .text              ro code  0x08003cca    0xb0  FltMul.o [4]
+  .text              ro code  0x08003d7a    0xc2  DblDiv.o [4]
+  .text              ro code  0x08003e3c    0x62  DblToFlt.o [4]
+  .text              ro code  0x08003e9e     0x2  startup_stm32l031xx.o [1]
+  .text              ro code  0x08003ea0    0x26  FltToU32.o [4]
+  .text              ro code  0x08003ec6     0x2  startup_stm32l031xx.o [1]
+  .text              ro code  0x08003ec8    0x30  I32ToDbl.o [4]
+  .text              ro code  0x08003ef8    0xaa  FltDiv.o [4]
+  .text              ro code  0x08003fa2     0x2  startup_stm32l031xx.o [1]
+  .text              ro code  0x08003fa4    0x4e  DblToI32.o [4]
+  .text              ro code  0x08003ff2     0x2  startup_stm32l031xx.o [1]
+  .text              ro code  0x08003ff4   0x3e8  stm32l0xx_hal_tim.o [1]
+  .text              ro code  0x080043dc    0xf4  timer.o [1]
+  .text              ro code  0x080044d0    0x5c  stm32l0xx_hal_tim_ex.o [1]
+  .text              ro code  0x0800452c   0x230  eeprom.o [1]
+  .text              ro code  0x0800475c    0xac  stm32l0xx_hal_flash_ex.o [1]
+  .text              ro code  0x08004808   0x128  stm32l0xx_hal_flash.o [1]
+  .text              ro code  0x08004930   0x1a0  gpio.o [1]
+  .rodata            const    0x08004ad0   0x108  battercom.o [1]
+  .text              ro code  0x08004bd8    0x98  bmsstart.o [1]
+  .text              ro code  0x08004c70    0x80  system_stm32l0xx.o [1]
+  .text              ro code  0x08004cf0    0x3c  zero_init3.o [5]
+  .text              ro code  0x08004d2c    0x32  bmsship.o [1]
+  .text              ro code  0x08004d5e     0x2  startup_stm32l031xx.o [1]
+  .rodata            const    0x08004d60    0x30  bmsnormal.o [1]
+  .rodata            const    0x08004d90    0x30  bmsnormal.o [1]
+  .text              ro code  0x08004dc0    0x30  copy_init3.o [5]
+  .text              ro code  0x08004df0    0x28  data_init.o [5]
+  .rodata            const    0x08004e18    0x24  bmsship.o [1]
+  .iar.init_table    const    0x08004e3c    0x24  - Linker created -
+  .text              ro code  0x08004e60    0x1a  cmain.o [5]
+  .text              ro code  0x08004e7a     0x8  exit.o [3]
+  .text              ro code  0x08004e82     0x2  startup_stm32l031xx.o [1]
+  .text              ro code  0x08004e84     0xa  cexit.o [5]
+  .text              ro code  0x08004e8e     0x2  startup_stm32l031xx.o [1]
+  .text              ro code  0x08004e90     0xc  XXexit.o [5]
+  .rodata            const    0x08004e9c    0x10  bmsnormal.o [1]
+  .rodata            const    0x08004eac    0x10  bmsstart.o [1]
+  .rodata            const    0x08004ebc    0x10  system_stm32l0xx.o [1]
+  .text              ro code  0x08004ecc    0x10  startup_stm32l031xx.o [1]
+  .text              ro code  0x08004edc    0x10  usart.o [1]
+  .rodata            const    0x08004eec     0xc  bmsnormal.o [1]
+  .rodata            const    0x08004ef8     0xc  main.o [1]
+  .rodata            const    0x08004f04     0xc  system_stm32l0xx.o [1]
+  .text              ro code  0x08004f10     0xc  cstartup_M.o [5]
+  .rodata            const    0x08004f1c     0x8  battercom.o [1]
+  .rodata            const    0x08004f24     0x8  bmsstart.o [1]
+  .rodata            const    0x08004f2c     0x4  eeprom.o [1]
+  .rodata            const    0x08004f30     0x4  eeprom.o [1]
+  Initializer bytes  const    0x08004f34     0x4  <for P2-1>
+  .text              ro code  0x08004f38     0x2  startup_stm32l031xx.o [1]
+  .text              ro code  0x08004f3a     0x2  startup_stm32l031xx.o [1]
+  .text              ro code  0x08004f3c     0x2  startup_stm32l031xx.o [1]
+  .text              ro code  0x08004f3e     0x2  startup_stm32l031xx.o [1]
+  .text              ro code  0x08004f40     0x2  startup_stm32l031xx.o [1]
+  .text              ro code  0x08004f42     0x2  startup_stm32l031xx.o [1]
+  .text              ro code  0x08004f44     0x2  startup_stm32l031xx.o [1]
+  .text              ro code  0x08004f46     0x2  startup_stm32l031xx.o [1]
+  .rodata            const    0x08004f48     0x1  eeprom.o [1]
+  .rodata            const    0x08004f49     0x1  eeprom.o [1]
+  .rodata            const    0x08004f4a     0x1  eeprom.o [1]
+  .rodata            const    0x08004f4b     0x1  eeprom.o [1]
+  .rodata            const    0x08004f4c     0x1  eeprom.o [1]
+  .rodata            const    0x08004f4d     0x1  eeprom.o [1]
+  .rodata            const    0x08004f4e     0x0  zero_init3.o [5]
+  .rodata            const    0x08004f4e     0x0  copy_init3.o [5]
+                            - 0x08004f4e  0x4e8e
+
+"P2", part 1 of 3:                           0x4
+  P2-1                        0x20000000     0x4  <Init block>
+    .data            inited   0x20000000     0x4  system_stm32l0xx.o [1]
+                            - 0x20000004     0x4
+
+"P2", part 2 of 3:                         0x400
+  CSTACK                      0x20000008   0x400  <Block>
+    CSTACK           uninit   0x20000008   0x400  <Block tail>
+                            - 0x20000408   0x400
+
+"P2", part 3 of 3:                         0x294
+  .bss               zero     0x20000408    0xd0  battercom.o [1]
+  .bss               zero     0x200004d8    0x70  usart.o [1]
+  .bss               zero     0x20000548    0x60  adc.o [1]
+  .bss               zero     0x200005a8    0x3c  i2c.o [1]
+  .bss               zero     0x200005e4    0x38  timer.o [1]
+  .bss               zero     0x2000061c    0x28  bmsnormal.o [1]
+  .bss               zero     0x20000644    0x18  stm32l0xx_hal_flash.o [1]
+  .bss               zero     0x2000065c     0x4  bmsnormal.o [1]
+  .bss               zero     0x20000660     0x4  bmsnormal.o [1]
+  .bss               zero     0x20000664     0x4  bmsnormal.o [1]
+  .bss               zero     0x20000668     0x4  bmsnormal.o [1]
+  .bss               zero     0x2000066c     0x4  bmsnormal.o [1]
+  .bss               zero     0x20000670     0x4  bmsnormal.o [1]
+  .bss               zero     0x20000674     0x4  key.o [1]
+  .bss               zero     0x20000678     0x4  stm32l0xx_hal.o [1]
+  .bss               zero     0x2000067c     0x4  timer.o [1]
+  .bss               zero     0x20000680     0x1  bmsnormal.o [1]
+  .bss               zero     0x20000681     0x1  bmsnormal.o [1]
+  .bss               zero     0x20000682     0x1  bmsnormal.o [1]
+  .bss               zero     0x20000683     0x1  bmsnormal.o [1]
+  .bss               zero     0x20000684     0x1  bmsnormal.o [1]
+  .bss               zero     0x20000685     0x1  bmsnormal.o [1]
+  .bss               zero     0x20000686     0x1  bmsnormal.o [1]
+  .bss               zero     0x20000687     0x1  bmsnormal.o [1]
+  .bss               zero     0x20000688     0x1  bmsnormal.o [1]
+  .bss               zero     0x20000689     0x1  bmsnormal.o [1]
+  .bss               zero     0x2000068a     0x1  bmsnormal.o [1]
+  .bss               zero     0x2000068b     0x1  bmsnormal.o [1]
+  .bss               zero     0x2000068c     0x1  bmsnormal.o [1]
+  .bss               zero     0x2000068d     0x1  bmsnormal.o [1]
+  .bss               zero     0x2000068e     0x1  bmsnormal.o [1]
+  .bss               zero     0x2000068f     0x1  bmsnormal.o [1]
+  .bss               zero     0x20000690     0x1  bmsnormal.o [1]
+  .bss               zero     0x20000691     0x1  bmsnormal.o [1]
+  .bss               zero     0x20000692     0x1  bmsnormal.o [1]
+  .bss               zero     0x20000693     0x1  bmsnormal.o [1]
+  .bss               zero     0x20000694     0x1  bmsnormal.o [1]
+  .bss               zero     0x20000695     0x1  bmsship.o [1]
+  .bss               zero     0x20000696     0x1  bmsstart.o [1]
+  .bss               zero     0x20000697     0x1  key.o [1]
+  .bss               zero     0x20000698     0x1  main.o [1]
+                            - 0x20000699   0x291
+
+
+*******************************************************************************
+*** INIT TABLE
+***
+
+          Address     Size
+          -------     ----
+Zero (__iar_zero_init3)
+    1 destination range, total size 0x291:
+          0x20000408  0x291
+
+Copy (__iar_copy_init3)
+    1 source range, total size 0x4:
+          0x08004f34    0x4
+    1 destination range, total size 0x4:
+          0x20000000    0x4
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module                    ro code  ro data  rw data
+    ------                    -------  -------  -------
+D:\brisky\项目资料\电池管理\code\代码merge\Stm32L031\EWARM\Release\Obj: [1]
+    adc.o                         372                96
+    afe.o                       1 522
+    battercom.o                 1 136      272      208
+    bmsnormal.o                 1 460      124       85
+    bmsship.o                      50       36        1
+    bmsstart.o                    152       24        1
+    chargedischarge.o             100
+    clock.o                       240
+    eeprom.o                      560       14
+    gpio.o                        416
+    i2c.o                       1 218                60
+    key.o                         220                 5
+    led.o                         184
+    main.o                         36       12        1
+    startup_stm32l031xx.o         242
+    stm32l0xx_hal.o                96                 4
+    stm32l0xx_hal_adc.o         1 652
+    stm32l0xx_hal_adc_ex.o        172
+    stm32l0xx_hal_cortex.o        308
+    stm32l0xx_hal_flash.o         296                24
+    stm32l0xx_hal_flash_ex.o      172
+    stm32l0xx_hal_gpio.o          540
+    stm32l0xx_hal_i2c.o         1 844
+    stm32l0xx_hal_i2c_ex.o        140
+    stm32l0xx_hal_rcc.o         2 040
+    stm32l0xx_hal_rcc_ex.o        432
+    stm32l0xx_hal_tim.o         1 000
+    stm32l0xx_hal_tim_ex.o         92
+    stm32l0xx_hal_uart.o          724
+    systemDefault.o                10
+    system_stm32l0xx.o            128       32        4
+    timer.o                       244                60
+    usart.o                        16               112
+    ---------------------------------------------------
+    Total:                     17 814      514      661
+
+command line: [2]
+    ---------------------------------------------------
+    Total:
+
+dl6M_tlf.a: [3]
+    exit.o                          8
+    ---------------------------------------------------
+    Total:                          8
+
+m6M_tl.a: [4]
+    DblAddSub.o                   436
+    DblCmpEq.o                     36
+    DblDiv.o                      194
+    DblToFlt.o                     98
+    DblToI32.o                     78
+    FltDiv.o                      170
+    FltMul.o                      176
+    FltToDbl.o                     50
+    FltToU32.o                     38
+    I32ToDbl.o                     48
+    I32ToFlt.o                     30
+    ---------------------------------------------------
+    Total:                      1 354
+
+rt6M_tl.a: [5]
+    ABImemcpy.o                    92
+    ABImemset.o                    52
+    I32DivModFast.o               224
+    XXexit.o                       12
+    cexit.o                        10
+    cmain.o                        26
+    copy_init3.o                   48
+    cstartup_M.o                   12
+    data_init.o                    40
+    zero_init3.o                   60
+    ---------------------------------------------------
+    Total:                        576
+
+    Linker created                          36    1 024
+-------------------------------------------------------
+    Grand Total:               19 752      550    1 685
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                      Address   Size  Type      Object
+-----                      -------   ----  ----      ------
+.iar.init_table$$Base   0x08004e3c          --   Gb  - Linker created -
+.iar.init_table$$Limit  0x08004e60          --   Gb  - Linker created -
+?main                   0x08004e61         Code  Gb  cmain.o [5]
+ADC1_COMP_IRQHandler    0x08002445    0xa  Code  Gb  adc.o [1]
+ADC_DelayMicroSecond    0x080022d5   0x22  Code  Lc  stm32l0xx_hal_adc.o [1]
+ADC_Enable              0x0800223d   0x86  Code  Lc  stm32l0xx_hal_adc.o [1]
+AFE_DeviceAddressCheck  0x08002695   0x24  Code  Lc  afe.o [1]
+AFE_EnterShipMode       0x080028cf    0x2  Code  Lc  afe.o [1]
+AFE_GetAdcGain          0x08002aed   0x22  Code  Lc  afe.o [1]
+AFE_GetAdcOffset        0x08002b0f   0x10  Code  Lc  afe.o [1]
+AFE_GetAdcStaus         0x08002901   0x30  Code  Lc  afe.o [1]
+AFE_GetBatVoltage       0x08002acd   0x10  Code  Lc  afe.o [1]
+AFE_GetCcEnStatus       0x080029c5   0x30  Code  Lc  afe.o [1]
+AFE_GetCcrdyStatus      0x080028a3   0x2c  Code  Lc  afe.o [1]
+AFE_GetCellBalanceStatus
+                        0x08002a25    0x2  Code  Lc  afe.o [1]
+AFE_GetCellVoltage      0x08002a7f   0x26  Code  Lc  afe.o [1]
+AFE_GetCellsVoltage     0x08002aa5   0x28  Code  Lc  afe.o [1]
+AFE_GetChgOnStatus      0x08002933   0x30  Code  Lc  afe.o [1]
+AFE_GetDevxdStatus      0x08002873   0x30  Code  Lc  afe.o [1]
+AFE_GetDlyDisStatus     0x080029f7   0x2c  Code  Lc  afe.o [1]
+AFE_GetDsgOnStatus      0x08002963   0x30  Code  Lc  afe.o [1]
+AFE_GetOcdStatus        0x080027b3   0x30  Code  Lc  afe.o [1]
+AFE_GetOv               0x08002a6d   0x10  Code  Lc  afe.o [1]
+AFE_GetOvStatus         0x08002813   0x30  Code  Lc  afe.o [1]
+AFE_GetProtection1      0x08002a29    0xe  Code  Lc  afe.o [1]
+AFE_GetProtection2      0x08002a39    0xe  Code  Lc  afe.o [1]
+AFE_GetProtection3      0x08002a49   0x10  Code  Lc  afe.o [1]
+AFE_GetRegBit           0x080026b9   0x3c  Code  Lc  afe.o [1]
+AFE_GetRegByte          0x080026f5   0x34  Code  Lc  afe.o [1]
+AFE_GetRegWord          0x08002729   0x20  Code  Lc  afe.o [1]
+AFE_GetScdStatus        0x080027e3   0x30  Code  Lc  afe.o [1]
+AFE_GetSystemStatus     0x080027a5    0xe  Code  Lc  afe.o [1]
+AFE_GetTempsStaus       0x080028d1   0x30  Code  Lc  afe.o [1]
+AFE_GetTs1              0x08002add   0x10  Code  Lc  afe.o [1]
+AFE_GetUv               0x08002a5b   0x10  Code  Lc  afe.o [1]
+AFE_GetUvStatus         0x08002843   0x30  Code  Lc  afe.o [1]
+AFE_GetWholeRegVal      0x08002749   0x5c  Code  Lc  afe.o [1]
+AFE_InitEnv             0x0800252d   0xd0  Code  Gb  afe.o [1]
+AFE_SetAdcStatus        0x08002931    0x2  Code  Lc  afe.o [1]
+AFE_SetCcEnStatus       0x080029f5    0x2  Code  Lc  afe.o [1]
+AFE_SetCellBalanceStatus
+                        0x08002a27    0x2  Code  Lc  afe.o [1]
+AFE_SetChgStatus        0x08002993   0x30  Code  Lc  afe.o [1]
+AFE_SetDlyDisStatus     0x08002a23    0x2  Code  Lc  afe.o [1]
+AFE_SetDsgStatus        0x080029c3    0x2  Code  Lc  afe.o [1]
+AFE_SetOv               0x08002a7d    0x2  Code  Lc  afe.o [1]
+AFE_SetProtection1      0x08002a37    0x2  Code  Lc  afe.o [1]
+AFE_SetProtection2      0x08002a47    0x2  Code  Lc  afe.o [1]
+AFE_SetProtection3      0x08002a59    0x2  Code  Lc  afe.o [1]
+AFE_SetUv               0x08002a6b    0x2  Code  Lc  afe.o [1]
+AHBPrescTable           0x08004ebc   0x10  Data  Gb  system_stm32l0xx.o [1]
+API_ChgDsgDisable       0x080030d5   0x10  Code  Gb  chargedischarge.o [1]
+API_ConfigureAFE        0x080035e7   0x60  Code  Gb  battercom.o [1]
+API_DisableDischarge    0x0800310f   0x2a  Code  Gb  chargedischarge.o [1]
+API_EEpromFactoryReset  0x080045f5  0x142  Code  Gb  eeprom.o [1]
+API_EEpromGetAfeConfig  0x0800452d   0x4e  Code  Gb  eeprom.o [1]
+API_EEpromSetAfeConifg  0x0800457b   0x7a  Code  Gb  eeprom.o [1]
+API_EnableDischarge     0x080030e5   0x2a  Code  Gb  chargedischarge.o [1]
+API_FuelGaugeLedDisplay
+                        0x0800328f   0x38  Code  Gb  led.o [1]
+API_FuelGaugeLedExchange
+                        0x08003231   0x5e  Code  Gb  led.o [1]
+API_GetBatteryCellsVoltage
+                        0x08003349   0xa4  Code  Gb  battercom.o [1]
+API_GetBatteryInfo      0x0800353d   0x2c  Code  Gb  battercom.o [1]
+API_GetBatteryTemperature
+                        0x080033f9   0xda  Code  Gb  battercom.o [1]
+API_GetBatteryVoltage   0x080032cd   0x7c  Code  Gb  battercom.o [1]
+API_InitKeyVar          0x08003139    0xe  Code  Gb  key.o [1]
+API_KeyScan             0x08003147   0xc0  Code  Gb  key.o [1]
+API_OvtripExchange      0x08003647   0x64  Code  Gb  battercom.o [1]
+API_PowerLedOff         0x08003223    0xe  Code  Gb  led.o [1]
+API_PowerLedOn          0x08003215    0xe  Code  Gb  led.o [1]
+API_UvtripExchange      0x080036b5   0x60  Code  Gb  battercom.o [1]
+BN_BmsChg               0x08002b5f    0x2  Code  Gb  bmsnormal.o [1]
+BN_BmsDsg               0x08002b4d   0x12  Code  Gb  bmsnormal.o [1]
+BN_BmsFirwareUpdate     0x08002b61    0x2  Code  Gb  bmsnormal.o [1]
+BN_BmsStandby           0x08002b3b   0x12  Code  Gb  bmsnormal.o [1]
+BSS_AfeStateMng         0x08004d57    0x2  Code  Gb  bmsship.o [1]
+BSS_BmsShip             0x08004d2d   0x18  Code  Gb  bmsship.o [1]
+BSS_ChargeDetect        0x08004d55    0x2  Code  Gb  bmsship.o [1]
+BSS_DsgChgMng           0x08004d5b    0x2  Code  Gb  bmsship.o [1]
+BSS_ENV_INIT            0x08004d4d    0x2  Code  Gb  bmsship.o [1]
+BSS_FaultDeal           0x08004d5d    0x2  Code  Gb  bmsship.o [1]
+BSS_FuelGaugeMng        0x08004d59    0x2  Code  Gb  bmsship.o [1]
+BSS_KeyDetect           0x08004d53    0x2  Code  Gb  bmsship.o [1]
+BSS_TimerEvent          0x08004d51    0x2  Code  Gb  bmsship.o [1]
+BSS_UART                0x08004d4f    0x2  Code  Gb  bmsship.o [1]
+BS_AfeInitial           0x08004c11   0x3a  Code  Gb  bmsstart.o [1]
+BS_BmsNormal            0x08002b21   0x1a  Code  Gb  bmsnormal.o [1]
+BS_BmsStart             0x08004bd9   0x12  Code  Gb  bmsstart.o [1]
+BS_DsgChgInitial        0x08004c53    0x8  Code  Gb  bmsstart.o [1]
+BS_FaulGaugeInitial     0x08004c4b    0x8  Code  Gb  bmsstart.o [1]
+BS_McuHalInitial        0x08004beb   0x26  Code  Gb  bmsstart.o [1]
+BmsNormalTable          0x08004e9c   0x10  Data  Gb  bmsnormal.o [1]
+BmsPowerOnTable         0x08004ef8    0xc  Data  Gb  main.o [1]
+BmsShipTable            0x08004e18   0x24  Data  Gb  bmsship.o [1]
+BmsStartTable           0x08004eac   0x10  Data  Gb  bmsstart.o [1]
+CRC8                    0x08001999   0x4e  Code  Gb  i2c.o [1]
+CSTACK$$Base            0x20000008          --   Gb  - Linker created -
+CSTACK$$Limit           0x20000408          --   Gb  - Linker created -
+CalculateAdcRawToVol    0x08003569   0x22  Code  Lc  battercom.o [1]
+CalculateBatVoltage     0x0800358b   0x34  Code  Lc  battercom.o [1]
+CalculateGain           0x080035bf   0x28  Code  Lc  battercom.o [1]
+DischargeBatInfo        0x08002ee1   0x28  Code  Gb  bmsnormal.o [1]
+DischargeChargeDetect   0x08003067   0x12  Code  Gb  bmsnormal.o [1]
+DischargeComToFlc       0x08002f09   0x32  Code  Gb  bmsnormal.o [1]
+DischargeFaultDeal      0x08002f95    0xe  Code  Gb  bmsnormal.o [1]
+DischargeFeedWatchDog   0x08002fa3    0x8  Code  Gb  bmsnormal.o [1]
+DischargeFuelGaugeDisplay
+                        0x0800303f   0x28  Code  Gb  bmsnormal.o [1]
+DischargeInit           0x08002e85   0x22  Code  Gb  bmsnormal.o [1]
+DischargeKeyDeal        0x08002f49   0x34  Code  Gb  bmsnormal.o [1]
+DischargeStateMng       0x08002eb1   0x2c  Code  Gb  bmsnormal.o [1]
+DischargeSwitchToChg    0x08002f81    0x8  Code  Gb  bmsnormal.o [1]
+DischargeSwitchToStandby
+                        0x08002f8d    0x8  Code  Gb  bmsnormal.o [1]
+DischargeTable          0x08004d90   0x30  Data  Gb  bmsnormal.o [1]
+DischargeTimerEvent     0x08002fb1   0x8e  Code  Gb  bmsnormal.o [1]
+Error_Handler           0x08000c3d    0x4  Code  Gb  main.o [1]
+ExchangeBatInfo2Txinfo  0x08002d41   0x5c  Code  Gb  bmsnormal.o [1]
+FLASH_SetErrorCode      0x0800488d   0x96  Code  Lc  stm32l0xx_hal_flash.o [1]
+FLASH_WaitForLastOperation
+                        0x08004809   0x7e  Code  Gb  stm32l0xx_hal_flash.o [1]
+HAL_ADCEx_Calibration_Start
+                        0x08002481   0xa8  Code  Gb  stm32l0xx_hal_adc_ex.o [1]
+HAL_ADC_AnalogWDGConfig
+                        0x0800216b   0xcc  Code  Gb  stm32l0xx_hal_adc.o [1]
+HAL_ADC_ConfigChannel   0x080020b3   0xb8  Code  Gb  stm32l0xx_hal_adc.o [1]
+HAL_ADC_ConvCpltCallback
+                        0x08002475    0xc  Code  Gb  adc.o [1]
+HAL_ADC_IRQHandler      0x08001fc5   0xee  Code  Gb  stm32l0xx_hal_adc.o [1]
+HAL_ADC_Init            0x08001c99  0x20c  Code  Gb  stm32l0xx_hal_adc.o [1]
+HAL_ADC_LevelOutOfWindowCallback
+                        0x08002469    0xc  Code  Gb  adc.o [1]
+HAL_ADC_MspInit         0x080023fd   0x48  Code  Gb  adc.o [1]
+HAL_ADC_Start           0x08001ea5   0x6a  Code  Gb  stm32l0xx_hal_adc.o [1]
+HAL_ADC_Start_IT        0x08001f29   0x96  Code  Gb  stm32l0xx_hal_adc.o [1]
+HAL_API_AdcInit         0x0800230d    0x8  Code  Gb  adc.o [1]
+HAL_API_GpioInit        0x08004931    0x8  Code  Gb  gpio.o [1]
+HAL_API_I2c1Init        0x08001525    0x8  Code  Gb  i2c.o [1]
+HAL_API_SystemClockConfig
+                        0x08000ae1    0x8  Code  Gb  clock.o [1]
+HAL_API_Timer2Init      0x080043dd    0x8  Code  Gb  timer.o [1]
+HAL_FLASHEx_DATAEEPROM_Lock
+                        0x0800477b   0x10  Code  Gb  stm32l0xx_hal_flash_ex.o [1]
+HAL_FLASHEx_DATAEEPROM_Program
+                        0x0800478b   0x64  Code  Gb  stm32l0xx_hal_flash_ex.o [1]
+HAL_FLASHEx_DATAEEPROM_Unlock
+                        0x0800475d   0x1e  Code  Gb  stm32l0xx_hal_flash_ex.o [1]
+HAL_GPIO_Init           0x08001a7d  0x1c8  Code  Gb  stm32l0xx_hal_gpio.o [1]
+HAL_GPIO_ReadPin        0x08001c45   0x1c  Code  Gb  stm32l0xx_hal_gpio.o [1]
+HAL_GPIO_WritePin       0x08001c61   0x14  Code  Gb  stm32l0xx_hal_gpio.o [1]
+HAL_GetTick             0x08000905    0x6  Code  Wk  stm32l0xx_hal.o [1]
+HAL_I2CEx_ConfigAnalogFilter
+                        0x080019f1   0x86  Code  Gb  stm32l0xx_hal_i2c_ex.o [1]
+HAL_I2C_Init            0x08000df1   0xbc  Code  Gb  stm32l0xx_hal_i2c.o [1]
+HAL_I2C_IsDeviceReady   0x0800113d  0x14c  Code  Gb  stm32l0xx_hal_i2c.o [1]
+HAL_I2C_Master_Receive  0x08000ff5  0x140  Code  Gb  stm32l0xx_hal_i2c.o [1]
+HAL_I2C_Master_Transmit
+                        0x08000ead  0x140  Code  Gb  stm32l0xx_hal_i2c.o [1]
+HAL_I2C_MspInit         0x08001585   0x4c  Code  Gb  i2c.o [1]
+HAL_IncTick             0x080008f9    0xc  Code  Wk  stm32l0xx_hal.o [1]
+HAL_Init                0x080008b9   0x1c  Code  Gb  stm32l0xx_hal.o [1]
+HAL_InitTick            0x080008d5   0x24  Code  Wk  stm32l0xx_hal.o [1]
+HAL_MspInit             0x080009f9   0x42  Code  Gb  clock.o [1]
+HAL_NVIC_EnableIRQ      0x08000bc1    0xe  Code  Gb  stm32l0xx_hal_cortex.o [1]
+HAL_NVIC_SetPriority    0x08000bad   0x14  Code  Gb  stm32l0xx_hal_cortex.o [1]
+HAL_RCCEx_PeriphCLKConfig
+                        0x08000c41  0x180  Code  Gb  stm32l0xx_hal_rcc_ex.o [1]
+HAL_RCC_ClockConfig     0x080005e5  0x1aa  Code  Gb  stm32l0xx_hal_rcc.o [1]
+HAL_RCC_GetHCLKFreq     0x08000883    0x6  Code  Gb  stm32l0xx_hal_rcc.o [1]
+HAL_RCC_GetSysClockFreq
+                        0x080007a9   0xda  Code  Gb  stm32l0xx_hal_rcc.o [1]
+HAL_RCC_OscConfig       0x080000c1  0x508  Code  Gb  stm32l0xx_hal_rcc.o [1]
+HAL_SYSTICK_CLKSourceConfig
+                        0x08000bdb   0x22  Code  Gb  stm32l0xx_hal_cortex.o [1]
+HAL_SYSTICK_Config      0x08000bcf    0xc  Code  Gb  stm32l0xx_hal_cortex.o [1]
+HAL_SYSTICK_IRQHandler  0x08000c15    0x8  Code  Gb  stm32l0xx_hal_cortex.o [1]
+HAL_TIMEx_MasterConfigSynchronization
+                        0x080044d1   0x5c  Code  Gb  stm32l0xx_hal_tim_ex.o [1]
+HAL_TIM_Base_Init       0x08003ff5   0x38  Code  Gb  stm32l0xx_hal_tim.o [1]
+HAL_TIM_Base_MspInit    0x080043e5   0x2c  Code  Gb  timer.o [1]
+HAL_TIM_Base_Start_IT   0x0800402d   0x1e  Code  Gb  stm32l0xx_hal_tim.o [1]
+HAL_TIM_ConfigClockSource
+                        0x08004191  0x128  Code  Gb  stm32l0xx_hal_tim.o [1]
+HAL_TIM_IRQHandler      0x0800404b  0x146  Code  Gb  stm32l0xx_hal_tim.o [1]
+HAL_UART_IRQHandler     0x08003835  0x12a  Code  Gb  stm32l0xx_hal_uart.o [1]
+HAL_UART_Transmit_IT    0x080037cd   0x68  Code  Gb  stm32l0xx_hal_uart.o [1]
+HardFault_Handler       0x080019e9    0x4  Code  Gb  systemDefault.o [1]
+I2C_AfeDeviceTest       0x080018bf   0x2c  Code  Lc  i2c.o [1]
+I2C_IsAcknowledgeFailed
+                        0x0800143b   0xb0  Code  Lc  stm32l0xx_hal_i2c.o [1]
+I2C_ReadMulRegContinusWithCrc
+                        0x080016f9   0xf8  Code  Gb  i2c.o [1]
+I2C_ReadRegisterWordWithCrc
+                        0x080017f9   0xc6  Code  Gb  i2c.o [1]
+I2C_ReadSingleReg       0x080015d1   0x68  Code  Gb  i2c.o [1]
+I2C_ReadSingleRegWithCrc
+                        0x08001639   0xb4  Code  Gb  i2c.o [1]
+I2C_TransferConfig      0x080014eb   0x2e  Code  Lc  stm32l0xx_hal_i2c.o [1]
+I2C_WaitOnFlagUntilTimeout
+                        0x0800128d   0x8a  Code  Lc  stm32l0xx_hal_i2c.o [1]
+I2C_WaitOnRXNEFlagUntilTimeout
+                        0x080013bd   0x7e  Code  Lc  stm32l0xx_hal_i2c.o [1]
+I2C_WaitOnSTOPFlagUntilTimeout
+                        0x0800136d   0x50  Code  Lc  stm32l0xx_hal_i2c.o [1]
+I2C_WaitOnTXISFlagUntilTimeout
+                        0x08001317   0x56  Code  Lc  stm32l0xx_hal_i2c.o [1]
+I2C_WriteBlockWithCrc   0x080018f1   0xa2  Code  Gb  i2c.o [1]
+MX_ADC_Init             0x08002315   0xe8  Code  Lc  adc.o [1]
+MX_GPIO_Init            0x08004945  0x172  Code  Lc  gpio.o [1]
+MX_I2C1_Init            0x0800152d   0x58  Code  Lc  i2c.o [1]
+MX_TIM2_Init            0x08004411   0x6a  Code  Lc  timer.o [1]
+NMI_Handler             0x080019e7    0x2  Code  Gb  systemDefault.o [1]
+NVIC_EnableIRQ          0x08000ae9    0xe  Code  Lc  stm32l0xx_hal_cortex.o [1]
+NVIC_SetPriority        0x08000af7   0x84  Code  Lc  stm32l0xx_hal_cortex.o [1]
+OCDDelay                0x08004f4a    0x1  Data  Gb  eeprom.o [1]
+OCDThresh               0x08004f4b    0x1  Data  Gb  eeprom.o [1]
+OVDelay                 0x08004f4c    0x1  Data  Gb  eeprom.o [1]
+OVPThreshold            0x08004f2c    0x4  Data  Gb  eeprom.o [1]
+PLLMulTable             0x08004f04    0xc  Data  Gb  system_stm32l0xx.o [1]
+PendSV_Handler          0x080019ef    0x2  Code  Gb  systemDefault.o [1]
+ProcFlash               0x20000644   0x18  Data  Gb  stm32l0xx_hal_flash.o [1]
+Region$$Table$$Base     0x08004e3c          --   Gb  - Linker created -
+Region$$Table$$Limit    0x08004e60          --   Gb  - Linker created -
+SCDDelay                0x08004f48    0x1  Data  Gb  eeprom.o [1]
+SCDThresh               0x08004f49    0x1  Data  Gb  eeprom.o [1]
+SVC_Handler             0x080019ed    0x2  Code  Gb  systemDefault.o [1]
+StandbyBatInfo          0x08002bb7   0x28  Code  Gb  bmsnormal.o [1]
+StandbyChargeDetect     0x08002c4d   0x12  Code  Gb  bmsnormal.o [1]
+StandbyComToFlc         0x08002bdf   0x32  Code  Gb  bmsnormal.o [1]
+StandbyFaultDeal        0x08002c5f    0xe  Code  Gb  bmsnormal.o [1]
+StandbyFeedWatchDog     0x08002c6d    0x8  Code  Gb  bmsnormal.o [1]
+StandbyFuelGaugeDisplay
+                        0x08002c75   0x28  Code  Gb  bmsnormal.o [1]
+StandbyInit             0x08002b63   0x1a  Code  Gb  bmsnormal.o [1]
+StandbyKeyDeal          0x08002c11   0x3c  Code  Gb  bmsnormal.o [1]
+StandbyStateMng         0x08002b7d   0x3a  Code  Gb  bmsnormal.o [1]
+StandbySwitchToChg      0x08002d0d    0xe  Code  Gb  bmsnormal.o [1]
+StandbySwitchToDsg      0x08002d21   0x14  Code  Gb  bmsnormal.o [1]
+StandbyTable            0x08004d60   0x30  Data  Gb  bmsnormal.o [1]
+StandbyTimerEvent       0x08002c9d   0x70  Code  Gb  bmsnormal.o [1]
+StandbyUsartSendBatInfo
+                        0x08002dc1   0xbe  Code  Gb  bmsnormal.o [1]
+SysTick_Config          0x08000b7b   0x32  Code  Lc  stm32l0xx_hal_cortex.o [1]
+SysTick_Handler         0x08004939    0xc  Code  Gb  gpio.o [1]
+SystemClock_Config      0x08000a3b   0x96  Code  Lc  clock.o [1]
+SystemCoreClock         0x20000000    0x4  Data  Gb  system_stm32l0xx.o [1]
+SystemInit              0x08004c71   0x5a  Code  Gb  system_stm32l0xx.o [1]
+TIM2_IRQHandler         0x0800447b   0x38  Code  Gb  timer.o [1]
+TIM_Base_SetConfig      0x080042bd   0x6e  Code  Lc  stm32l0xx_hal_tim.o [1]
+TIM_ETR_SetConfig       0x080043ad   0x20  Code  Lc  stm32l0xx_hal_tim.o [1]
+TIM_ITRx_SetConfig      0x08004395   0x18  Code  Lc  stm32l0xx_hal_tim.o [1]
+TIM_TI1_ConfigInputStage
+                        0x0800432b   0x2e  Code  Lc  stm32l0xx_hal_tim.o [1]
+TIM_TI2_ConfigInputStage
+                        0x08004359   0x34  Code  Lc  stm32l0xx_hal_tim.o [1]
+TempTable               0x080034e1   0x48  Code  Lc  battercom.o [1]
+UART_EndTransmit_IT     0x080039d3   0x20  Code  Lc  stm32l0xx_hal_uart.o [1]
+UART_Receive_IT         0x080039f3   0xa6  Code  Lc  stm32l0xx_hal_uart.o [1]
+UART_Transmit_IT        0x0800395f   0x74  Code  Lc  stm32l0xx_hal_uart.o [1]
+USART2_IRQHandler       0x08004edd    0xa  Code  Gb  usart.o [1]
+UVDelay                 0x08004f4d    0x1  Data  Gb  eeprom.o [1]
+UVPThreshold            0x08004f30    0x4  Data  Gb  eeprom.o [1]
+__aeabi_cdcmpeq         0x08003ca7         Code  Gb  DblCmpEq.o [4]
+__aeabi_d2f             0x08003e3d         Code  Gb  DblToFlt.o [4]
+__aeabi_d2iz            0x08003fa5         Code  Gb  DblToI32.o [4]
+__aeabi_dadd            0x08003af3         Code  Gb  DblAddSub.o [4]
+__aeabi_ddiv            0x08003d7b         Code  Gb  DblDiv.o [4]
+__aeabi_dsub            0x08003bb9         Code  Gb  DblAddSub.o [4]
+__aeabi_f2d             0x08003ac1         Code  Gb  FltToDbl.o [4]
+__aeabi_f2uiz           0x08003ea1         Code  Gb  FltToU32.o [4]
+__aeabi_fdiv            0x08003ef9         Code  Gb  FltDiv.o [4]
+__aeabi_fmul            0x08003ccb         Code  Gb  FltMul.o [4]
+__aeabi_i2d             0x08003ec9         Code  Gb  I32ToDbl.o [4]
+__aeabi_idiv            0x08000945         Code  Gb  I32DivModFast.o [5]
+__aeabi_idivmod         0x08000945         Code  Gb  I32DivModFast.o [5]
+__aeabi_memclr4         0x080037c9         Code  Gb  ABImemset.o [5]
+__aeabi_memclr8         0x080037c9         Code  Gb  ABImemset.o [5]
+__aeabi_memcpy          0x0800373d         Code  Gb  ABImemcpy.o [5]
+__aeabi_memcpy4         0x08003765         Code  Wk  ABImemcpy.o [5]
+__aeabi_ui2f            0x08003aa1         Code  Gb  I32ToFlt.o [4]
+__aeabi_uidiv           0x0800094b         Code  Gb  I32DivModFast.o [5]
+__aeabi_uidivmod        0x0800094b         Code  Gb  I32DivModFast.o [5]
+__cmain                 0x08004e61         Code  Gb  cmain.o [5]
+__exit                  0x08004e91         Code  Gb  XXexit.o [5]
+__iar_Memset4_word      0x08003799         Code  Gb  ABImemset.o [5]
+__iar_copy_init3        0x08004dc1   0x30  Code  Gb  copy_init3.o [5]
+__iar_d2uiz             0x08003fc9         Code  Gb  DblToI32.o [4]
+__iar_data_init3        0x08004df1   0x28  Code  Gb  data_init.o [5]
+__iar_program_start     0x08004f11         Code  Gb  cstartup_M.o [5]
+__iar_ui2d              0x08003edd         Code  Gb  I32ToDbl.o [4]
+__iar_ui2f              0x08003aa5         Code  Gb  I32ToFlt.o [4]
+__iar_zero_init3        0x08004cf1   0x3c  Code  Gb  zero_init3.o [5]
+__vector_table          0x08000000         Data  Gb  startup_stm32l031xx.o [1]
+_call_main              0x08004e6d         Code  Gb  cmain.o [5]
+_exit                   0x08004e85         Code  Gb  cexit.o [5]
+_main                   0x08004e77         Code  Gb  cmain.o [5]
+afeRaw                  0x20000408   0xd0  Data  Gb  battercom.o [1]
+batInfo                 0x2000061c   0x28  Data  Lc  bmsnormal.o [1]
+exit                    0x08004e7b    0x8  Code  Gb  exit.o [3]
+g_bmsState              0x20000698    0x1  Data  Gb  main.o [1]
+g_chargeEventTick       0x2000068d    0x1  Data  Gb  bmsnormal.o [1]
+g_dischargeEventTick    0x20000686    0x1  Data  Gb  bmsnormal.o [1]
+g_keyTick               0x20000691    0x1  Data  Gb  bmsnormal.o [1]
+g_standbyEventTick      0x20000680    0x1  Data  Gb  bmsnormal.o [1]
+hadc                    0x20000548   0x60  Data  Gb  adc.o [1]
+hi2c1                   0x200005a8   0x3c  Data  Gb  i2c.o [1]
+htim2                   0x200005e4   0x38  Data  Gb  timer.o [1]
+huart2                  0x200004d8   0x70  Data  Gb  usart.o [1]
+main                    0x08000c1d   0x18  Code  Gb  main.o [1]
+s_batteryFaultFlag      0x20000692    0x1  Data  Gb  bmsnormal.o [1]
+s_batteryInfoUpdateOk   0x20000693    0x1  Data  Gb  bmsnormal.o [1]
+s_bmsDischargeState     0x20000690    0x1  Data  Lc  bmsnormal.o [1]
+s_bmsNormalState        0x2000068e    0x1  Data  Lc  bmsnormal.o [1]
+s_bmsShipState          0x20000695    0x1  Data  Gb  bmsship.o [1]
+s_bmsStandbyState       0x2000068f    0x1  Data  Lc  bmsnormal.o [1]
+s_bmsStartState         0x20000696    0x1  Data  Lc  bmsstart.o [1]
+s_dischargeBatInfoUpdateCnt
+                        0x20000668    0x4  Data  Gb  bmsnormal.o [1]
+s_dischargeBatInfoUpdateFlag
+                        0x20000687    0x1  Data  Gb  bmsnormal.o [1]
+s_dischargeChargeStateDetectCnt
+                        0x2000066c    0x4  Data  Gb  bmsnormal.o [1]
+s_dischargeChargeStateDetectFlag
+                        0x20000688    0x1  Data  Gb  bmsnormal.o [1]
+s_dischargeCom2FlcCnt   0x20000670    0x4  Data  Gb  bmsnormal.o [1]
+s_dischargeCom2FlcFlag  0x20000689    0x1  Data  Gb  bmsnormal.o [1]
+s_dischargePowerKeyPressedFlag
+                        0x2000068a    0x1  Data  Gb  bmsnormal.o [1]
+s_displayFaulGauge      0x20000694    0x1  Data  Gb  bmsnormal.o [1]
+s_holdCnt               0x20000674    0x4  Data  Lc  key.o [1]
+s_keyState              0x20000697    0x1  Data  Lc  key.o [1]
+s_ledTwinkleCnt         0x2000068b    0x1  Data  Gb  bmsnormal.o [1]
+s_ledTwinkleFlag        0x2000068c    0x1  Data  Gb  bmsnormal.o [1]
+s_standbyBatInfoUpdateCnt
+                        0x2000065c    0x4  Data  Gb  bmsnormal.o [1]
+s_standbyBatInfoUpdateFlag
+                        0x20000681    0x1  Data  Gb  bmsnormal.o [1]
+s_standbyChargeOnFlag   0x20000684    0x1  Data  Gb  bmsnormal.o [1]
+s_standbyChargeStateDetectCnt
+                        0x20000660    0x4  Data  Gb  bmsnormal.o [1]
+s_standbyChargeStateDetectFlag
+                        0x20000682    0x1  Data  Gb  bmsnormal.o [1]
+s_standbyCom2FlcCnt     0x20000664    0x4  Data  Gb  bmsnormal.o [1]
+s_standbyCom2FlcFlag    0x20000683    0x1  Data  Gb  bmsnormal.o [1]
+s_standbyPowerKeyPressedFlag
+                        0x20000685    0x1  Data  Gb  bmsnormal.o [1]
+tcnt                    0x2000067c    0x4  Data  Lc  timer.o [1]
+uwTick                  0x20000678    0x4  Data  Gb  stm32l0xx_hal.o [1]
+
+
+[1] = D:\brisky\项目资料\电池管理\code\代码merge\Stm32L031\EWARM\Release\Obj
+[2] = command line
+[3] = dl6M_tlf.a
+[4] = m6M_tl.a
+[5] = rt6M_tl.a
+
+  19 752 bytes of readonly  code memory
+     550 bytes of readonly  data memory
+   1 685 bytes of readwrite data memory
+
+Errors: none
+Warnings: none

@@ -1,0 +1,33 @@
+/*
+ * 	i2c.h
+ *
+ *	Created on: Jun 25, 2013
+ *		Author: Denis aka caat
+ */
+
+#ifndef _I2C_H_
+#define _I2C_H_
+//#include "stm32f1xx_hal_gpio.h"
+#include <stdint.h>
+
+#define I2C_OK          0
+#define I2C_ERROR       1
+#define I2C_PARM_ERROR  2
+#define SYSTEM_STATUS   0x00
+#define CELL_BALANCE1   0x01
+#define CELL_BALANCE2   0x02
+#define CELL_BALANCE3   0x03
+#define SYSTEM_CONTROL1 0x04
+#define SYSTEM_CONTROL2 0x05
+#define PROTECTION1     0x06
+#define PROTECTION2     0x07
+#define PROTECTION3     0x08
+#define OV_TRIP         0x09
+#define UV_TRIP         0x0A
+#define CC_CFG          0x0B
+
+extern int I2C_ReadSingleRegister(unsigned char i2cDeviceAddr,unsigned char reg,char * pData);
+extern int I2C_ReadMulRegisterContinus(unsigned char i2cDeviceAddr,char startReg, unsigned char num,char* pData);
+extern int I2C_WriteRegisterByte(unsigned char i2cDeviceAddr, unsigned char reg, unsigned char data);
+extern int I2C_WriteBlock(unsigned char i2cDeviceAddr, unsigned char startReg, unsigned char *buffer, unsigned char length);
+#endif /* _I2C_H_*/

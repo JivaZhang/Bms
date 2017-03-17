@@ -1,0 +1,40 @@
+D:\brisky\项目资料\电池管理\code\Stm32L031\project\API\src\afe.c
+  `I2C_ReadSingleRegWithCrc' does not have a valid prototype, calls bypass all type checking	FUNC-unprototyped-used	Low	D:\brisky\项目资料\电池管理\code\Stm32L031\project\API\src\afe.c:147
+  `I2C_ReadRegisterWordWithCrc' does not have a valid prototype, calls bypass all type checking	FUNC-unprototyped-used	Low	D:\brisky\项目资料\电池管理\code\Stm32L031\project\API\src\afe.c:249
+  `I2C_ReadMulRegContinusWithCrc' does not have a valid prototype, calls bypass all type checking	FUNC-unprototyped-used	Low	D:\brisky\项目资料\电池管理\code\Stm32L031\project\API\src\afe.c:264
+D:\brisky\项目资料\电池管理\code\Stm32L031\project\API\src\battercom.c
+  Variable `batVolRawHi' is unused on all paths	RED-unused-var-all	Low	D:\brisky\项目资料\电池管理\code\Stm32L031\project\API\src\battercom.c:29
+  Variable `batVolRawLow' is unused on all paths	RED-unused-var-all	Low	D:\brisky\项目资料\电池管理\code\Stm32L031\project\API\src\battercom.c:30
+  Variable `resV' may be uninitialized	SPC-uninit-var-some	High	D:\brisky\项目资料\电池管理\code\Stm32L031\project\API\src\battercom.c:158
+    API_GetBatteryTemperature	D:\brisky\项目资料\电池管理\code\Stm32L031\project\API\src\battercom.c
+      if (afeRaw.GetTs1(&afeRaw)!=AFE_SUCCESS) is false	D:\brisky\项目资料\电池管理\code\Stm32L031\project\API\src\battercom.c:136
+      if (afeRaw.GetAdcGain(&afeRaw)!=AFE_SUCCESS) is false	D:\brisky\项目资料\电池管理\code\Stm32L031\project\API\src\battercom.c:140
+      if (afeRaw.GetAdcOffset(&afeRaw)!=AFE_SUCCESS) is false	D:\brisky\项目资料\电池管理\code\Stm32L031\project\API\src\battercom.c:144
+      if ((3.299999999999999822-vtsx)!=0) is false	D:\brisky\项目资料\电池管理\code\Stm32L031\project\API\src\battercom.c:154
+      Read of `resV'	D:\brisky\项目资料\电池管理\code\Stm32L031\project\API\src\battercom.c:158
+  Variable `fault' is uninitialized	SPC-uninit-var-all	High	D:\brisky\项目资料\电池管理\code\Stm32L031\project\API\src\battercom.c:240
+  Variable `st' is uninitialized	SPC-uninit-var-all	High	D:\brisky\项目资料\电池管理\code\Stm32L031\project\API\src\battercom.c:260
+  `I2C_ReadMulRegContinusWithCrc' does not have a valid prototype, calls bypass all type checking	FUNC-unprototyped-used	Low	D:\brisky\项目资料\电池管理\code\Stm32L031\project\API\src\battercom.c:286
+D:\brisky\项目资料\电池管理\code\Stm32L031\project\Application\src\bmsnormal.c
+  Dead code found	RED-dead	Low	D:\brisky\项目资料\电池管理\code\Stm32L031\project\Application\src\bmsnormal.c:282
+D:\brisky\项目资料\电池管理\code\Stm32L031\project\API\src\eeprom.c
+  `CRC8' does not have a valid prototype, calls bypass all type checking	FUNC-unprototyped-used	Low	D:\brisky\项目资料\电池管理\code\Stm32L031\project\API\src\eeprom.c:30
+  `API_OvtripExchange' does not have a valid prototype, calls bypass all type checking	FUNC-unprototyped-used	Low	D:\brisky\项目资料\电池管理\code\Stm32L031\project\API\src\eeprom.c:75
+  `API_UvtripExchange' does not have a valid prototype, calls bypass all type checking	FUNC-unprototyped-used	Low	D:\brisky\项目资料\电池管理\code\Stm32L031\project\API\src\eeprom.c:76
+  Unspecified execution order between `CRC8((unsigned_char *)(&cfg), (sizeof(_eepromStct)-3), CRC_KEY)' and other reference(s) to `cfg'	SPC-order	Medium	D:\brisky\项目资料\电池管理\code\Stm32L031\project\API\src\eeprom.c:77
+D:\brisky\项目资料\电池管理\code\Stm32L031\project\HalApi\src\i2c.c
+  Comment contains the character sequence /*	COMMENT-nested	Low	D:\brisky\项目资料\电池管理\code\Stm32L031\project\HalApi\src\i2c.c:78
+  The memory at `malloc((2*length))' is freed without being used	MEM-free-no-use	Medium	D:\brisky\项目资料\电池管理\code\Stm32L031\project\HalApi\src\i2c.c:258
+    I2C_ReadMulRegContinusWithCrc	D:\brisky\项目资料\电池管理\code\Stm32L031\project\HalApi\src\i2c.c
+      Free of memory at `malloc((2*length))'	D:\brisky\项目资料\电池管理\code\Stm32L031\project\HalApi\src\i2c.c:258
+      return	D:\brisky\项目资料\电池管理\code\Stm32L031\project\HalApi\src\i2c.c:260
+  `memset' does not have a valid prototype, calls bypass all type checking	FUNC-unprototyped-used	Low	D:\brisky\项目资料\电池管理\code\Stm32L031\project\HalApi\src\i2c.c:445
+D:\brisky\项目资料\电池管理\code\Stm32L031\project\Drivers\STM32L0xx_HAL_Driver\Src\stm32l0xx_hal_flash_ex.c
+  Value assigned to variable `status' is never used	RED-unused-assign	Low	D:\brisky\项目资料\电池管理\code\Stm32L031\project\Drivers\STM32L0xx_HAL_Driver\Src\stm32l0xx_hal_flash_ex.c:635
+D:\brisky\项目资料\电池管理\code\Stm32L031\project\Drivers\STM32L0xx_HAL_Driver\Src\stm32l0xx_hal_i2c.c
+  Expression `Size' with range [-1,255] may overflow to [0,255] when implicitly converted to unsigned 8-bit int	ATH-overflow	Medium	D:\brisky\项目资料\电池管理\code\Stm32L031\project\Drivers\STM32L0xx_HAL_Driver\Src\stm32l0xx_hal_i2c.c:574
+  Expression `Size' with range [-1,255] may overflow to [0,255] when implicitly converted to unsigned 8-bit int	ATH-overflow	Medium	D:\brisky\项目资料\电池管理\code\Stm32L031\project\Drivers\STM32L0xx_HAL_Driver\Src\stm32l0xx_hal_i2c.c:690
+D:\brisky\项目资料\电池管理\code\Stm32L031\project\Drivers\STM32L0xx_HAL_Driver\Src\stm32l0xx_hal_rcc.c
+  Array `PLLMulTable' 1st subscript interval [0,15] may be out of bounds [0,8]	ARR-inv-index-pos	High	D:\brisky\项目资料\电池管理\code\Stm32L031\project\Drivers\STM32L0xx_HAL_Driver\Src\stm32l0xx_hal_rcc.c:1081
+D:\brisky\项目资料\电池管理\code\Stm32L031\project\Drivers\CMSIS\Device\ST\STM32L0xx\Source\Templates\system_stm32l0xx.c
+  Array `PLLMulTable' 1st subscript interval [0,15] may be out of bounds [0,8]	ARR-inv-index-pos	High	D:\brisky\项目资料\电池管理\code\Stm32L031\project\Drivers\CMSIS\Device\ST\STM32L0xx\Source\Templates\system_stm32l0xx.c:245

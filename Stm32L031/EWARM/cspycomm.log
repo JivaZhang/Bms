@@ -1,0 +1,92 @@
+feb 8/15:37:00.008 DEBUG2 : 		STLinkOpen
+feb 8/15:37:02.031 DEBUG2 : 		Stop
+feb 8/15:37:03.051 DEBUG2 : 		ReadTarget32
+feb 8/15:37:03.238 DEBUG2 : 		ReadTarget32
+feb 8/15:37:05.024 DEBUG2 : 		ReadTarget32
+feb 8/15:37:05.028 DEBUG2 : 		ReadTarget32
+feb 8/15:37:05.032 DEBUG2 : 		STLinkReadReg
+feb 8/15:37:05.037 DEBUG2 : 		STLinkWriteReg
+feb 8/15:37:05.041 DEBUG2 : 		STLinkReadReg
+feb 8/15:37:05.046 DEBUG2 : 		STLinkReadReg
+feb 8/15:37:05.046 DEBUG2 : 		STLinkReadReg
+feb 8/15:37:05.048 DEBUG2 : 		STLinkWriteReg
+feb 8/15:37:05.050 DEBUG2 : 		ReadTarget32
+feb 8/15:37:05.054 DEBUG2 : 		WriteTarget32 Address=0xE000EDFC Data=0x01000000
+feb 8/15:37:05.058 DEBUG2 : 		ReadTarget32
+feb 8/15:37:05.062 DEBUG2 : 		STLinkReadReg
+feb 8/15:37:05.068 DEBUG2 : 		ReadTarget16
+feb 8/15:37:05.068 DEBUG2 : 		ReadTarget8
+feb 8/15:37:05.071 DEBUG2 : 		SetCodeBreak
+feb 8/15:37:05.075 DEBUG2 : 		STLinkIsCpuHalted
+feb 8/15:37:05.211 DEBUG2 : 		ReadTarget16
+feb 8/15:37:05.211 DEBUG2 : 		ReadTarget8
+feb 8/15:37:05.216 DEBUG2 : 		SetCodeBreak
+feb 8/15:37:05.217 DEBUG2 : 		ReadTarget16
+feb 8/15:37:05.217 DEBUG2 : 		ReadTarget8
+feb 8/15:37:05.227 DEBUG2 : 		SetCodeBreak
+feb 8/15:37:05.227 DEBUG2 : 		ReadTarget16
+feb 8/15:37:05.227 DEBUG2 : 		ReadTarget8
+feb 8/15:37:05.231 DEBUG2 : 		SetCodeBreak
+feb 8/15:37:05.274 DEBUG2 : 		ReadTarget16
+feb 8/15:37:05.274 DEBUG2 : 		ReadTarget8
+feb 8/15:37:05.283 DEBUG2 : 		ReadTarget32
+feb 8/15:37:05.287 DEBUG2 : 		WriteTarget32 Address=0xE000EDFC Data=0x01000000
+feb 8/15:37:05.291 DEBUG2 : 		ReadTarget32
+feb 8/15:37:05.295 DEBUG2 : 		ReadTarget32
+feb 8/15:37:05.299 DEBUG2 : 		ReadTarget32
+feb 8/15:37:05.303 DEBUG2 : 		ReadTarget32
+feb 8/15:37:05.307 DEBUG2 : 		WriteTarget32 Address=0xE000EDFC Data=0x01000000
+feb 8/15:37:05.311 DEBUG2 : 		WriteTarget32 Address=0xE0001028 Data=0x00000000
+feb 8/15:37:05.315 DEBUG2 : 		WriteTarget32 Address=0xE0001038 Data=0x00000000
+feb 8/15:37:05.319 DEBUG2 : 		Go >
+feb 8/15:37:05.345 DEBUG2 : 		Go <
+feb 8/15:37:05.346 DEBUG2 : 		STLinkIsCpuHalted
+feb 8/15:37:05.355 DEBUG2 : 		ReadTarget32
+feb 8/15:37:05.359 DEBUG2 : 		WriteTarget32 Address=0xE000EDFC Data=0x01000000
+feb 8/15:37:05.363 DEBUG2 : 		WriteTarget32 Address=0xE0001028 Data=0x00000000
+feb 8/15:37:05.367 DEBUG2 : 		WriteTarget32 Address=0xE0001038 Data=0x00000000
+feb 8/15:37:05.377 DEBUG2 : 		STLinkReadReg
+feb 8/15:37:05.382 DEBUG2 : 		ReadTarget16
+feb 8/15:37:05.383 DEBUG2 : 		ReadTarget8
+feb 8/15:37:05.387 DEBUG2 : 		ClearCodeBreak
+feb 8/15:37:05.387 DEBUG2 : 		STLinkReadReg
+feb 8/15:37:05.387 DEBUG2 : 		STLinkReadReg
+feb 8/15:37:05.387 DEBUG2 : 		STLinkReadReg
+feb 8/15:37:05.855 DEBUG2 : 		ReadTarget32
+feb 8/15:37:05.859 DEBUG2 : 		STLinkReadReg
+feb 8/15:37:05.859 DEBUG2 : 		ReadTarget32
+feb 8/15:37:05.865 DEBUG2 : 		ReadTarget32
+feb 8/15:37:05.877 DEBUG2 : 		ReadTarget32
+feb 8/15:37:05.881 DEBUG2 : 		ReadTarget16
+feb 8/15:37:05.881 DEBUG2 : 		ReadTarget8
+feb 8/15:37:05.885 DEBUG2 : 		ReadTarget32
+feb 8/15:37:05.890 DEBUG2 : 		ReadTarget16
+feb 8/15:37:05.890 DEBUG2 : 		ReadTarget8
+feb 8/15:37:06.040 DEBUG2 : 		ReadTarget16
+feb 8/15:37:06.040 DEBUG2 : 		ReadTarget8
+feb 8/15:37:06.044 DEBUG2 : 		ReadTarget32
+feb 8/15:37:06.049 DEBUG2 : 		ReadTarget16
+feb 8/15:37:06.049 DEBUG2 : 		ReadTarget8
+feb 8/15:37:06.069 DEBUG2 : 		ReadTarget32
+feb 8/15:37:06.074 DEBUG2 : 		ReadTarget16
+feb 8/15:37:06.074 DEBUG2 : 		ReadTarget8
+feb 8/15:37:06.078 DEBUG2 : 		ReadTarget32
+feb 8/15:37:06.082 DEBUG2 : 		ReadTarget16
+feb 8/15:37:06.082 DEBUG2 : 		ReadTarget8
+feb 8/15:37:06.101 DEBUG2 : 		ReadTarget32
+feb 8/15:37:06.106 DEBUG2 : 		ReadTarget32
+feb 8/15:37:06.310 DEBUG2 : 		ReadTarget32
+feb 8/15:37:06.314 DEBUG2 : 		ReadTarget32
+feb 8/15:37:06.317 DEBUG2 : 		ReadTarget32
+feb 8/15:37:06.321 DEBUG2 : 		ReadTarget32
+feb 8/15:37:06.391 DEBUG2 : 		ReadTarget32
+feb 8/15:37:06.450 DEBUG2 : 		ReadTarget32
+feb 8/15:37:06.470 DEBUG2 : 		ReadTarget32
+feb 8/15:37:06.583 DEBUG2 : 		ReadTarget32
+feb 8/15:37:06.588 DEBUG2 : 		ReadTarget32
+feb 8/15:37:06.592 DEBUG2 : 		ReadTarget32
+feb 8/15:37:06.599 DEBUG2 : 		ReadTarget32
+feb 8/15:37:07.848 DEBUG2 : 		ClearCodeBreak
+feb 8/15:37:07.848 DEBUG2 : 		ClearCodeBreak
+feb 8/15:37:07.848 DEBUG2 : 		ClearCodeBreak
+feb 8/15:37:07.865 DEBUG2 : 		Shutdown
